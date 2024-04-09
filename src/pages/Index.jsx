@@ -11,16 +11,21 @@ const Index = () => {
           <Flex alignItems="center" justifyContent="space-between">
             <Box>
               <Heading as="h1" size="2xl" mb={4}>
-                Software Development Solutions
+                Custom Software Solutions for Your Business
               </Heading>
-              <Text fontSize="xl" mb={8}>
-                We build custom software solutions to help businesses grow and succeed in the digital age.
+              <Text fontSize="xl" mb={6}>
+                Boost productivity, streamline operations, and drive growth with tailor-made software applications.
               </Text>
-              <Button colorScheme="blue" size="lg">
-                Get Started
-              </Button>
+              <Stack direction={["column", "row"]} spacing={4}>
+                <Button colorScheme="blue" size="lg">
+                  Get Started
+                </Button>
+                <Button colorScheme="gray" size="lg">
+                  Learn More
+                </Button>
+              </Stack>
             </Box>
-            <Image src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8MTcxMjY1MDU2Nnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Software Development" maxW="400px" />
+            <Image src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Custom Software Development" maxW="500px" />
           </Flex>
         </Box>
       </Box>
